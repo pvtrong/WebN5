@@ -1,4 +1,5 @@
-﻿.content .content-header {
+﻿
+.content .content-header {
     height: 52px;
     width: 100%;
     display: flex;
@@ -10,15 +11,19 @@
         display: flex;
     }
 
-        .content .content-header .account .account-area .help-area a {
-            width: 36px;
-            height: 38px;
-            background-image: url('../../Content/images/icon_help_18.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            display: block;
-            margin: 7px 0;
-        }
+    .content .content-header .languages{
+
+    }
+
+    .content .content-header .account .account-area .help-area a {
+        width: 36px;
+        height: 38px;
+        background-image: url('../../Content/images/icon_help_18.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block;
+        margin: 7px 0;
+    }
 
             .content .content-header .account .account-area .help-area a:hover {
                 background-image: url('../../content/images/icon-help-18-hover.png');

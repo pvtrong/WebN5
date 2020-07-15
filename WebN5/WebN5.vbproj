@@ -138,9 +138,15 @@
     <Content Include="index.html" />
     <Content Include="JS\Lib\jquery-3.5.0.min.js" />
     <Content Include="JS\Lib\jquery-ui.min.js" />
+    <Content Include="Pages\API.html" />
     <Content Include="Pages\Career.html" />
-    <Content Include="Pages\Common.js" />
+    <Content Include="JS\pages\Common.js" />
+    <Content Include="Pages\Company.html" />
+    <Content Include="Pages\Discover.html" />
+    <Content Include="Pages\Help.html" />
     <Content Include="Pages\Profile.html" />
+    <Content Include="Pages\Setting.html" />
+    <Content Include="Pages\Teacher.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
