@@ -108,7 +108,7 @@ body {
 
 /*CONTENT*/
 .content {
-    width: calc(100% - 156px);
+    width: calc(100% - 140px);
     height: 100vh;
     margin-left: 140px;
     color: #212121;
@@ -116,8 +116,14 @@ body {
 
     .content .content-body {
         background-color: #808080;
-        width: 100%;
-        height: calc(100% - 68px);
+        width: calc(100% - 60px);
+        height: calc(100% - 112px);
         background-color: #e5e6eb;
-        padding: 8px;
+        box-sizing: content-box;
+        padding: 30px;
     }
+
+.content .content-body .title-body{
+    font-size: 2em;
+    font-weight: bold;
+}

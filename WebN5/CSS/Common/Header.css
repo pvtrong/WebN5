@@ -88,16 +88,19 @@
                     font-weight: bold;
                     color: #000000;
                 }
+    .content .content-header .account .box-account{
+        display: none;
+    }
 
-            .content .content-header .account .account-area .trigger-account .info-trigger-account a {
-                width: 20px;
-                height: 10px;
-                background-image: url('../../content/images/arrow-down-line.png');
-                background-repeat: no-repeat;
-                background-position: center;
-                display: block;
-                margin: 20px 0;
-            }
+    .content .content-header .account .account-area .trigger-account .info-trigger-account a {
+        width: 20px;
+        height: 10px;
+        background-image: url('../../content/images/arrow-down-line.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block;
+        margin: 20px 0;
+    }
 
             .content .content-header .account .account-area .trigger-account .info-trigger-account {
                 width: 20px;
