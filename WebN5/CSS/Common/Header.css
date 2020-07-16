@@ -7,12 +7,59 @@
     color: #000000;
 }
 
+    .content .content-header #header-title{
+        font-size: 2em;
+        font-weight: bold;
+        margin: 10px 30px;
+    }
+
     .content .content-header .account .account-area {
         display: flex;
     }
 
-    .content .content-header .languages{
+    .content .content-header .languages {
+        height: 32px;
+        border: 1px solid #f0f0f0;
+        text-decoration: none;
+        color: #000000;
+        min-width: 162px;
+        border-radius: 3px;
+        align-items: center;
+        margin: 10px 0px;
+    }
 
+    .content .content-header .languages .languages-content {
+        height: 32px;
+        flex-basis: 150px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        color: #000000;
+        justify-items: flex-end;
+        justify-content: space-between;    
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .content .content-header .languages-content .languages-text {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        flex-basis: 120px;
+        line-height: 32px;
+        width: calc(100% - 30px);
+        justify-content: center;
+    }
+
+
+
+    .content .content-header .languages-content .languages-trigger {
+        width: 22px;
+        height: 8px;
+        align-items: end;
+        background-image: url(../../Content/images/arrow-down-line.png);
+        background-repeat: no-repeat;
+        background-position: 0px 2px;
     }
 
     .content .content-header .account .account-area .help-area a {
@@ -74,7 +121,7 @@
         }
             .content .content-header .account .account-area .trigger-account .name-account{
                 min-width: 100px;
-                height: 100%;
+                height: 52px;
                 color: #000000;
             }
                 .content .content-header .account .account-area .trigger-account .name-account a {
@@ -99,7 +146,7 @@
         background-repeat: no-repeat;
         background-position: center;
         display: block;
-        margin: 20px 0;
+        margin: 21px 0;
     }
 
             .content .content-header .account .account-area .trigger-account .info-trigger-account {
