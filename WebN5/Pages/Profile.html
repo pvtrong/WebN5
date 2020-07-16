@@ -2,130 +2,151 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Cơ hội việc làm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Demo</title>
     <link href="../CSS/Lib/jquery-ui.min.css" rel="stylesheet" />
     <link href="../CSS/Common/Common.css" rel="stylesheet" />
     <link href="../CSS/Common/Header.css" rel="stylesheet" />
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
 </head>
 <body>
-
     <!--Menu area-->
-    <div class="menu">
-        <!--Logo-->
-        <div class="logo-area">
-            <a id="logo" href="../index.html">
-                <div class="logo-pages">
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
 
-                </div>
-                <div class="logo-text">UET</div>
-            </a>
-        </div>
-
-        <!--Menu item-->
-        <div id="menu-content">
-            <a class="menu-item" href="../index.html">
-                <span class="menu-item-icon icon-board"></span>
-                <span class="menu-item-text">Tổng quan</span>
-            </a>
-            <a class="menu-item" href="Career.html">
-                <div class="menu-item-icon icon-job"></div>
-                <div class="menu-item-text">Việc làm</div>
-            </a>
-            <a class="menu-item" href="Profile.html">
-                <div class="menu-item-icon icon-profile"></div>
-                <div class="menu-item-text">Hồ Sơ</div>
-            </a>
-            <a class="menu-item" href="Discover.html">
-                <div class="icon-more icon-discover"></div>
-                <div class="menu-item-text">Khám phá</div>
-            </a>
-            <a class="menu-item" href="Company.html">
-                <div class="icon-more icon-company"></div>
-                <div class="menu-item-text">Công ty</div>
-            </a>
-            <a class="menu-item" href="Teacher.html">
-                <div class="menu-item-icon icon-teacher"></div>
-                <div class="menu-item-text">Nhà trường</div>
-            </a>
-            <a class="menu-item" href="Setting.html">
-                <div class="menu-item-icon icon-setting"></div>
-                <div class="menu-item-text">Thiết lập</div>
-            </a>
-            <a class="menu-item" href="Help.html">
-                <div class="menu-item-icon icon-help"></div>
-                <div class="menu-item-text">Trợ giúp</div>
-            </a>
-            <a class="menu-item" href="API.html">
-                <div class="icon-more icon-api"></div>
-                <div class="menu-item-text">API</div>
-            </a>
-
-        </div>
-
-    </div>
-
-    <!--Content area-->
-    <div class="content">
-        <div class="content-header">
-            <div id="header-title">Cập nhật Hồ Sơ</div>
-            <!--<div class="languages">
-                <div class="languages-content">
-                    <div class="languages-text">
-                        <a>
-                            Ngôn ngữ
-                        </a>
-                    </div>
-
-                    <div class="languages-trigger">
-                        <a href="#"></a>
-                    </div>
-
-                </div>
-
-                <div class="box-languages">
-                    <div class="filter-selection" id="English"></div>
-                </div>
-            </div>-->
-            <div class="account">
-                <div href="#" class="account-area">
-                    <div class="avatar-account">
-                        <a href="#"></a>
-                    </div>
-                    <div class="trigger-account">
-                        <div class="name-account">
-                            <a href="#">Phạm Văn Trọng</a>
-                        </div>
-
-                        <div class="info-trigger-account">
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div class="more-area call-area">
-                        <a class="call" href="#"></a>
-                    </div>
-                    <div class="more-area notice-area">
-                        <a class="notice" href="#"></a>
-                    </div>
-                    <div class="more-area help-area">
-                        <a class="help" href="#"></a>
-                    </div>
-
-                </div>
-                <div class="box-account">
-                    <div href="#" class="account-selection" id="change-pw">Thay đổi mật khẩu</div>
-                    <div href="#" class="account-selection" id="feedback">Góp ý nhà phát triển</div>
-                    <div href="#" class="account-selection" id="log-out">Đăng xuất</div>
-                </div>
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
             </div>
 
+            <div class="menu">
+                <!--Logo-->
+                <div class="logo-area">
+                    <a id="logo" href="../index.html">
+                        <div class="logo-pages">
+
+                        </div>
+                        UET
+                    </a>
+                </div>
+
+                <!--Menu item-->
+                <div id="menu-content">
+                    <a class="menu-item" href="../index.html">
+                        <span class="menu-item-icon icon-board"></span>
+                        <span class="menu-item-text">Tổng quan</span>
+                    </a>
+                    <a class="menu-item" href="Profile.html">
+                        <div class="menu-item-icon icon-profile"></div>
+                        <div class="menu-item-text">Hồ Sơ</div>
+                    </a>
+                    <a class="menu-item" href="Discover.html">
+                        <div class="icon-more icon-discover"></div>
+                        <div class="menu-item-text">Khám Phá</div>
+                    </a>
+                    <a class="menu-item" href="Company.html">
+                        <div class="icon-more icon-company"></div>
+                        <div class="menu-item-text">Công Ty</div>
+                    </a>
+                    <a class="menu-item" href="Teacher.html">
+                        <div class="menu-item-icon icon-teacher"></div>
+                        <div class="menu-item-text">Nhà Trường</div>
+                    </a>
+                    <a class="menu-item" href="Setting.html">
+                        <div class="menu-item-icon icon-setting"></div>
+                        <div class="menu-item-text">Thiết Lập</div>
+                    </a>
+                    <a class="menu-item" href="Help.html">
+                        <div class="menu-item-icon icon-help"></div>
+                        <div class="menu-item-text">Trợ giúp</div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!--Content area-->
+                    <div class="content">
+                        <div class="content-header">
+                            <div id="header-title">Cập Nhật Hồ Sơ</div>
+
+                            <div class="account">
+                                <div href="#" class="account-area">
+                                    <div class="avatar-account">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="trigger-account">
+                                        <div class="name-account">
+                                            <a href="#">Phạm Văn Trọng</a>
+                                        </div>
+
+                                        <div class="info-trigger-account">
+                                            <a href="#"></a>
+                                        </div>
+                                    </div>
+                                    <div class="more-area call-area">
+                                        <a class="call" href="#"></a>
+                                    </div>
+                                    <div class="more-area notice-area">
+                                        <a class="notice" href="#"></a>
+                                    </div>
+                                    <div class="more-area help-area">
+                                        <a class="help" href="#"></a>
+                                    </div>
+
+                                </div>
+                                <div class="box-account">
+                                    <div href="#" class="account-selection" id="change-pw">Thay đổi mật khẩu</div>
+                                    <div href="#" class="account-selection" id="feedback">Góp ý nhà phát triển</div>
+                                    <div href="#" class="account-selection" id="log-out">Đăng xuất</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="content-body">
+
+                            
+
+                        </div>
+                    </div>
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span></span>
+                    </button>
+                </div>
+
+            </nav>
 
         </div>
-        <div class="content-body">
-
-
-        </div>
+        <!-- Dark Overlay element -->
+        <div class="overlay"></div>
     </div>
+
+
+
+
+
+
+
     <script src="../JS/Lib/jquery-3.5.0.min.js"></script>
-    <script src="Common.js"></script>
+    <script src="../JS/pages/Common.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script src="../JS/pages/Sidebar.js"></script>
 </body>
 </html>

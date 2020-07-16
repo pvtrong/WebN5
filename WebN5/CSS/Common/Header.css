@@ -10,7 +10,8 @@
     .content .content-header #header-title{
         font-size: 2em;
         font-weight: bold;
-        margin: 10px 30px;
+        margin: 10px 50px;
+        line-height: 32px;
     }
 
     .content .content-header .account .account-area {
@@ -122,6 +123,7 @@
             .content .content-header .account .account-area .trigger-account .name-account{
                 min-width: 100px;
                 height: 52px;
+                line-height: 20px;
                 color: #000000;
             }
                 .content .content-header .account .account-area .trigger-account .name-account a {
