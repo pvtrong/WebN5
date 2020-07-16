@@ -17,7 +17,7 @@
         display: flex;
     }
 
-    .content .content-header .languages {
+    /*.content .content-header .languages {
         height: 32px;
         border: 1px solid #f0f0f0;
         text-decoration: none;
@@ -60,7 +60,7 @@
         background-image: url(../../Content/images/arrow-down-line.png);
         background-repeat: no-repeat;
         background-position: 0px 2px;
-    }
+    }*/
 
     .content .content-header .account .account-area .help-area a {
         width: 36px;
