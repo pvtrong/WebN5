@@ -127,6 +127,7 @@
     <Content Include="CSS\Common\Common.css" />
     <Content Include="CSS\Common\Header.css" />
     <Content Include="CSS\Lib\bootstrap.css" />
+    <Content Include="CSS\Lib\bootstrap.min.css" />
     <Content Include="CSS\Lib\images\logo2_new.png" />
     <Content Include="CSS\Lib\images\ui-icons_444444_256x240.png" />
     <Content Include="CSS\Lib\images\ui-icons_555555_256x240.png" />
@@ -137,6 +138,7 @@
     <Content Include="CSS\Lib\jquery-ui.min.css" />
     <Content Include="CSS\Pages\Student.css" />
     <Content Include="index.html" />
+    <Content Include="JS\Lib\bootstrap.min.js" />
     <Content Include="JS\Lib\jquery-3.5.0.min.js" />
     <Content Include="JS\Lib\jquery-ui.min.js" />
     <Content Include="JS\pages\Sidebar.js" />
@@ -149,6 +151,7 @@
     <Content Include="Pages\Profile.html" />
     <Content Include="Pages\Setting.html" />
     <Content Include="Pages\Teacher.html" />
+    <Content Include="SignUpAndLogIn\Login.html" />
     <Content Include="SignUpAndLogIn\Signup.html" />
     <Content Include="Web.config" />
   </ItemGroup>
