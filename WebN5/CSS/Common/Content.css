@@ -1,5 +1,14 @@
 ﻿.content-body .card-body .avatar-info-area {
-    width: 80px;
-    height: 120px;
+    width: 12em;
+    height: 20em;
     border: 1px solid #808080;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #026b97 !important;
+    border-color: #026b97 !important;   
+}
+#content .content {
+    overflow: auto;
 }

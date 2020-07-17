@@ -125,6 +125,7 @@
     <Content Include="Content\images\SplashNew.jpg" />
     <Content Include="Content\images\uncheck.png" />
     <Content Include="CSS\Common\Common.css" />
+    <Content Include="CSS\Common\Content.css" />
     <Content Include="CSS\Common\Header.css" />
     <Content Include="CSS\Lib\bootstrap.css" />
     <Content Include="CSS\Lib\bootstrap.min.css" />
