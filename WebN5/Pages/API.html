@@ -77,44 +77,78 @@
                 <div class="container-fluid">
                     <!--Content area-->
                     <div class="content">
-                        <div class="content-header">
-                            <div id="header-title"><h2 class="font-weight-bold">API</h2></div>
+                        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-                            <div class="account">
-                                <div href="#" class="account-area">
-                                    <div class="avatar-account">
-                                        <a href="#"></a>
-                                    </div>
-                                    <div class="trigger-account">
-                                        <div class="name-account">
-                                            <a href="#"><h6 class="font-weight-bold">Phạm Văn Trọng</h6></a>
-                                        </div>
+                            <!-- Sidebar Toggle (Topbar) -->
+                            <!-- Topbar Search -->
+                            <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                                <h3 class="font-weight-bold ml-4">API</h3>
+                            </form>
 
-                                        <div class="info-trigger-account">
-                                            <a href="#"></a>
-                                        </div>
-                                    </div>
-                                    <div class="more-area call-area">
-                                        <a class="call" href="#"></a>
-                                    </div>
-                                    <div class="more-area notice-area">
-                                        <a class="notice" href="#"></a>
-                                    </div>
-                                    <div class="more-area help-area">
-                                        <a class="help" href="#"></a>
-                                    </div>
+                            <!-- Topbar Navbar -->
+                            <ul class="navbar-nav ml-auto">
 
-                                </div>
-                                <div class="box-account">
-                                    <div href="#" class="account-selection" id="change-pw">Thay đổi mật khẩu</div>
-                                    <div href="#" class="account-selection" id="feedback">Góp ý nhà phát triển</div>
-                                    <div href="#" class="account-selection" id="log-out">Đăng xuất</div>
-                                </div>
-                            </div>
+                                
 
+                                <!-- Nav Item - Alerts -->
+                                <li class="nav-item dropdown no-arrow mx-1">
+                                    <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-bell fa-fw"></i>
+                                        <!-- Counter - Alerts -->
+                                        <span class="badge badge-danger badge-counter">3+</span>
+                                    </a>
+                                    <!-- Dropdown - Alerts -->
+
+                                </li>
+
+                                <!-- Nav Item - Messages -->
+                                <li class="nav-item dropdown no-arrow mx-1">
+                                    <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-envelope fa-fw"></i>
+                                        <!-- Counter - Messages -->
+                                        <span class="badge badge-danger badge-counter">7</span>
+                                    </a>
+                                    <!-- Dropdown - Messages -->
+
+                                </li>
+
+
+                                <!-- Nav Item - User Information -->
+                                <li class="nav-item dropdown no-arrow">
+                                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">Phạm Văn A</span>
+                                        <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                                    </a>
+                                    <!-- Dropdown - User Information -->
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                            Profile
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                            Settings
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                            Activity Log
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                            Logout
+                                        </a>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </nav>
+                        <div class="content-body">
+
+                            
 
                         </div>
-
                     </div>
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
                         <i class="fas fa-align-left"></i>
