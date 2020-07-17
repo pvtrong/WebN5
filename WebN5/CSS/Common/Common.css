@@ -129,7 +129,7 @@ body {
         background-color: #e5e6eb;
         box-sizing: content-box;
         padding: 30px;
-
+        overflow: auto;
     }
 
         .content .content-body .title-body {
