@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Demo</title>
+    <!-- Bootstrap CSS CDN -->
     <link href="../CSS/Lib/jquery-ui.min.css" rel="stylesheet" />
     <link href="../CSS/Common/Common.css" rel="stylesheet" />
-    <!-- Bootstrap CSS CDN -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <!-- Font Awesome JS -->
@@ -20,14 +21,10 @@
         <!-- Sidebar -->
         <nav id="sidebar">
 
-            <div id="dismiss">
-                <i class="fas fa-arrow-left"></i>
-            </div>
-
             <div class="menu">
                 <!--Logo-->
                 <div class="logo-area">
-                    <a id="logo" href="../index.html">
+                    <a id="logo" href="index.html">
                         <div class="logo-pages">
 
                         </div>
@@ -37,33 +34,37 @@
 
                 <!--Menu item-->
                 <div id="menu-content">
-                    <a class="menu-item" href="../index.html">
+                    <a class="menu-item" href="./index.html">
                         <span class="menu-item-icon icon-board"></span>
                         <span class="menu-item-text">Tổng quan</span>
                     </a>
                     <a class="menu-item" href="Profile.html">
-                        <div class="menu-item-icon icon-profile"></div>
-                        <div class="menu-item-text">Hồ Sơ</div>
+                        <div class="menu-item-icon icon-teacher"></div>
+                        <div class="menu-item-text">Hồ sơ</div>
                     </a>
-                    <a class="menu-item" href="Discover.html">
-                        <div class="icon-more icon-discover"></div>
-                        <div class="menu-item-text">Khám Phá</div>
+                    <a class="menu-item" href="Student.html">
+                        <div class="menu-item-icon icon-profile"></div>
+                        <div class="menu-item-text">Sinh viên</div>
                     </a>
                     <a class="menu-item" href="Company.html">
                         <div class="icon-more icon-company"></div>
-                        <div class="menu-item-text">Công Ty</div>
+                        <div class="menu-item-text">Doanh nghiệp</div>
                     </a>
-                    <a class="menu-item" href="Teacher.html">
-                        <div class="menu-item-icon icon-teacher"></div>
-                        <div class="menu-item-text">Nhà Trường</div>
+                    <a class="menu-item" href="Discover.html">
+                        <div class="icon-more icon-discover"></div>
+                        <div class="menu-item-text">Khám phá</div>
                     </a>
                     <a class="menu-item" href="Setting.html">
                         <div class="menu-item-icon icon-setting"></div>
-                        <div class="menu-item-text">Thiết Lập</div>
+                        <div class="menu-item-text">Thiết lập</div>
                     </a>
                     <a class="menu-item" href="Help.html">
                         <div class="menu-item-icon icon-help"></div>
                         <div class="menu-item-text">Trợ giúp</div>
+                    </a>
+                    <a class="menu-item" href="API.html">
+                        <div class="icon-more icon-api"></div>
+                        <div class="menu-item-text">API</div>
                     </a>
                 </div>
             </div>
@@ -78,8 +79,6 @@
                     <div class="content">
                         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-                            <!-- Sidebar Toggle (Topbar) -->
-                            <!-- Topbar Search -->
                             <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                                 <h3 class="font-weight-bold ml-4">Khám Phá</h3>
                             </form>
@@ -87,9 +86,6 @@
                             <!-- Topbar Navbar -->
                             <ul class="navbar-nav ml-auto">
 
-                                
-
-                                <!-- Nav Item - Alerts -->
                                 <li class="nav-item dropdown no-arrow mx-1">
                                     <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fas fa-bell fa-fw"></i>
@@ -161,17 +157,14 @@
         <!-- Dark Overlay element -->
         <div class="overlay"></div>
     </div>
-
-
-
     <script src="../JS/Lib/jquery-3.5.0.min.js"></script>
     <script src="../JS/pages/Common.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
     <script src="../JS/pages/Sidebar.js"></script>
 </body>
 </html>

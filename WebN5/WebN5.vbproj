@@ -125,8 +125,6 @@
     <Content Include="Content\images\SplashNew.jpg" />
     <Content Include="Content\images\uncheck.png" />
     <Content Include="CSS\Common\Common.css" />
-    <Content Include="CSS\Common\Content.css" />
-    <Content Include="CSS\Common\Header.css" />
     <Content Include="CSS\Lib\bootstrap.css" />
     <Content Include="CSS\Lib\bootstrap.min.css" />
     <Content Include="CSS\Lib\images\logo2_new.png" />
@@ -143,15 +141,23 @@
     <Content Include="JS\Lib\jquery-3.5.0.min.js" />
     <Content Include="JS\Lib\jquery-ui.min.js" />
     <Content Include="JS\pages\Sidebar.js" />
-    <Content Include="Pages\API.html" />
-    <Content Include="Pages\Career.html" />
+    <Content Include="PagesStudent\API.html" />
+    <Content Include="PagesStudent\Career.html" />
     <Content Include="JS\pages\Common.js" />
-    <Content Include="Pages\Company.html" />
-    <Content Include="Pages\Discover.html" />
-    <Content Include="Pages\Help.html" />
-    <Content Include="Pages\Profile.html" />
-    <Content Include="Pages\Setting.html" />
-    <Content Include="Pages\Teacher.html" />
+    <Content Include="PagesStudent\Company.html" />
+    <Content Include="PagesStudent\Discover.html" />
+    <Content Include="PagesStudent\Help.html" />
+    <Content Include="PagesStudent\Profile.html" />
+    <Content Include="PagesStudent\Setting.html" />
+    <Content Include="PagesStudent\Teacher.html" />
+    <Content Include="PagesTeacher\API.html" />
+    <Content Include="PagesTeacher\Discover.html" />
+    <Content Include="PagesTeacher\Help.html" />
+    <Content Include="PagesTeacher\index.html" />
+    <Content Include="PagesTeacher\Profile.html" />
+    <Content Include="PagesTeacher\Setting.html" />
+    <Content Include="PagesTeacher\Student.html" />
+    <Content Include="PagesTeacher\Company.html" />
     <Content Include="SignUpAndLogIn\Login.html" />
     <Content Include="SignUpAndLogIn\Signup.html" />
     <Content Include="Web.config" />
@@ -218,7 +224,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="PagesCompany\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
