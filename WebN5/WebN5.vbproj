@@ -145,13 +145,13 @@
     <Content Include="PagesStudent\Career.html" />
     <Content Include="JS\pages\Common.js" />
     <Content Include="PagesStudent\Company.html" />
-    <Content Include="PagesStudent\Discover.html" />
+    <Content Include="PagesStudent\Blog.html" />
     <Content Include="PagesStudent\Help.html" />
     <Content Include="PagesStudent\Profile.html" />
     <Content Include="PagesStudent\Setting.html" />
     <Content Include="PagesStudent\Teacher.html" />
     <Content Include="PagesTeacher\API.html" />
-    <Content Include="PagesTeacher\Discover.html" />
+    <Content Include="PagesTeacher\Blog.html" />
     <Content Include="PagesTeacher\Help.html" />
     <Content Include="PagesTeacher\index.html" />
     <Content Include="PagesTeacher\Profile.html" />
